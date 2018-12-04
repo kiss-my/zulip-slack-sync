@@ -1,0 +1,5 @@
+.env
+zuliprc
+node_modules/
+db/*
+!db/.gitkeep

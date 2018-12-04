@@ -1,0 +1,19 @@
+{
+  "name": "slack-zulip-bridge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Seïfane Idouchach",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "dotenv": "^6.1.0",
+    "sequelize": "^4.41.2",
+    "sqlite3": "^4.0.4",
+    "zulip-js": "^2.0.5"
+  }
+}
